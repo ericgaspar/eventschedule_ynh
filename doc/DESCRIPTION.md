@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+An open-source platform to share events, sell tickets and bring communities together.
