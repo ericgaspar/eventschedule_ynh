@@ -12,11 +12,9 @@ version = "1.0.102~ynh1"
 maintainers = ["eric_G"]
 
 [upstream]
-license = "free" # you can see the available licenses identifiers list here: https://spdx.org/licenses/
+license = "BSD"
 website = "https://eventschedule.com/"
-demo = "https://demo.example.com"
-admindoc = "https://doc.yunohost.org/dev/packaging/"
-userdoc = "https://yunohost.org/apps"
+admindoc = "https://eventschedule.com/docs"
 code = "https://some.forge.com/example/example"
 
 [integration]
