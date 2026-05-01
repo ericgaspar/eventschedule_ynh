@@ -44,20 +44,20 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
-    [install.language]
-    ask.en = "Choose the application language"
-    ask.fr = "Choisissez la langue de l'application"
-    type = "select"
-    choices = ["fr", "en"]
-    default = "fr"
+    #[install.language]
+    #ask.en = "Choose the application language"
+    #ask.fr = "Choisissez la langue de l'application"
+    #type = "select"
+    #choices = ["fr", "en"]
+    #default = "fr"
 
-    [install.admin]
-    type = "user"
+    #[install.admin]
+    #type = "user"
 
-    [install.password]
-    help.en = "Use the help field to add an information for the admin about this question."
-    help.fr = "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
-    type = "password"
+    #[install.password]
+    #help.en = "Use the help field to add an information for the admin about this question."
+    #help.fr = "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
+    #type = "password"
 
 [resources]
 
@@ -65,8 +65,8 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     url = "https://github.com/eventschedule/eventschedule/releases/download/v1.0.102/eventschedule.zip"
-    sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
-    # autoupdate.strategy = "latest_github_tag"
+    sha256 = "1e1642bf600367541af70263750a6e7744230f26b6889e323d33ed7b2941cf2b"
+    autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
 
